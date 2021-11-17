@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon-32x32.png">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.production.css">
+    </head>
+    <body>
+        <header>
+            <img class="header__items" src="img/logo.png" alt="Niket Shukla" />
+            <nav class="header__items">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation"><a class="navigation-list__item navigation-list__item--active" role="menuitem" href="index.html">Home</a></li>
+                    <li role="presentation"><a class="navigation-list__item" role="menuitem" href="about.html">About me</a></li>
+                    <li role="presentation"><a class="navigation-list__item" role="menuitem" href="work.html">Work</a></li>
+                    <li role="presentation"><a class="navigation-list__item" role="menuitem" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Contact Page</h1>
+        <form action="" method="post">
+            <label for="contact-email">E-mail: </label>
+            <input type="email" id="contact-email" required />
+          
+            <label for="telephone">Telephone: </label>
+            <input type="tel" id="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
+          
+            <label for="your-message">Message: </label>
+            <textarea maxlength="240" id="your-message" required></textarea>
+          
+            <input type="submit" value="Send message" />
+        </form>
+        <div>
+            <ul>
+                <li>Lorem Ipsum Lorem</li>
+                <li>Lorem Ipsum Str. 126</li> 
+                <li>10179 Lorem</li> 
+                <li>Lorem Ipsum</li>
+                <li>Tel <a href="tel:+491234567">+49 1234567</a></li>
+                <li>Skype <a href="skype:hello.careerfoundry"> hello.careerfoundry</a></li>
+                <li><a href="mailto:office@careerfoundry.com">office@careerfoundry.com</a></li>
+            </ul>
+        </div>
+
+        <script src="js/tota11y.min.js"></script>
+    </body>
+</html>
