@@ -147,6 +147,9 @@ main{
     display: inline-block;
     width: 33%;
 }
+.porfolio__grid__item img{
+  width: 100%;
+}
 /* end grid fallback */
 @supports (display: grid) {
     .work__content--grid{
