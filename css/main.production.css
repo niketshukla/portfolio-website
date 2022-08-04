@@ -110,6 +110,9 @@ footer{
     display: inline-block;
     margin-left: 5px;
 }
+.social__media--footer li img{
+  height: 30px;
+}
 header{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -181,6 +184,7 @@ main{
 }
 .main__content--about ul li{
     list-style: none;
+    display: inline-block;
 }
 .main__content--about a{
     display: inline-block;
@@ -272,6 +276,21 @@ main{
 /* contact page */
 .main__content--contact{
     text-align: center;
+}
+form label{
+  display: block;
+  margin-bottom: 5px;
+}
+form input{
+  margin-bottom: 15px;
+  width: 200px;
+}
+form textarea{
+  display: block;
+  margin: 0 auto 15px;
+}
+.contact_info li{
+  list-style: none;
 }
 
 
